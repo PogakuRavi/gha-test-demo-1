@@ -1,10 +1,10 @@
-name: this for selhosted
+name: Its for self-hosted Runners
 on: push
 
 jobs:
-  my_self-host:
+  MY-SELF-HOSTED:
     runs-on: self-hosted
 
     steps:
       - name: sample message
-        run: echo "THIS IS RUNNING ON SELF HOSTED"
+        run: echo "I am using for self-hosted runners"

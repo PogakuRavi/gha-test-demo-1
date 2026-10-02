@@ -7,4 +7,4 @@ jobs:
 
     steps:
       - name: sample message
-        run: echo "I am using for self-hosted runners"
+        run: echo "I am using for self-hosted runners from the second branch"

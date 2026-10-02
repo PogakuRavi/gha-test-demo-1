@@ -1,0 +1,14 @@
+name: my first gha test
+on: push
+
+jobs:
+  my_first:
+    runs-on: macos-latest
+
+
+    steps:
+      - name: message
+        run: echo "HI this is my first GHA"
+        
+      
+    

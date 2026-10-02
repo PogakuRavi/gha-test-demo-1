@@ -1,13 +1,13 @@
-name: this is first githib action concurrency
+name: self-host runner
 on: push
 
 jobs:
-  my_fisrs_job:
-    runs-on: ubuntu-latest
+  SELF-HOST-RUNNER-JOB:
+    runs-on: self-hosted
 
     steps:
-      - name: message
-        run : echo "this is my fist yaml file for gha"
+      - name: sample message
+        run: echo " gha runnig using self hosted"
 
    
       

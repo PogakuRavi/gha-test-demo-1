@@ -1,0 +1,10 @@
+name: this for selhosted
+on: push
+
+jobs:
+  my_self-host:
+    runs-on: self-hosted
+
+    steps:
+      - name: sample message
+        run: echo "THIS IS RUNNING ON SELF HOSTED"

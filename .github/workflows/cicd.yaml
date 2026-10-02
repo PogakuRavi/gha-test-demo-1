@@ -1,12 +1,14 @@
-name: MY firsst GHA
+name: this is first githib action concurrency
 on: push
 
 jobs:
-  my_first_GHA:
+  my_fisrs_job:
     runs-on: ubuntu-latest
 
     steps:
       - name: message
-        run: echo "Hi this is first GHA yaml file"
+        run : echo "this is my fist yaml file for gha"
+
+   
       
     

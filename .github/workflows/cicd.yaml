@@ -1,12 +1,12 @@
-name: first ghithib Actions 
+name: MY firsst GHA
 on: push
 
 jobs:
-  my_first_job:
+  my_first_GHA:
     runs-on: ubuntu-latest
 
     steps:
-      - name: messgae
-        run: echo "succ3essfullly  creaate cicd yaml file for GHA"
+      - name: message
+        run: echo "Hi this is first GHA yaml file"
       
     
